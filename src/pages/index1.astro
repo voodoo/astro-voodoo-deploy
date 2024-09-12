@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+// Remove Card import if not used
+---
+
+<Layout title="Together With Hill Country Veterans">
+  <header class="text-gray-100 bg-stone-600 text-center py-2">
+    <p>🇺🇸 Join us in a walk to honor and remember 911 🇺🇸</p>
+  </header>
+
+  <main class="flex flex-col items-center bg-lime-100">
+    <nav class="flex justify-between items-center">
+
+		<img src="/src/images/logo.webp" width="50" height="50" alt="TWHCV Logo" class="mx-auto max-w-md" />
+        <h1 class="text-sage-green text-2xl font-semibold uppercase">Together With Hill Country Veterans</h1>
+		<button class="bg-red-800 text-white px-2 py-2 rounded-md text-xl">Donate</button>
+
+    </nav>
+
+    <section class="container mx-auto text-center py-12">
+      <h2 class="text-5xl text-sage-green mb-8">Suicide Prevention Training</h2>
+      <nav class="mb-8">
+        <ul class="flex justify-center space-x-8 text-sage-green text-xl">
+          <li>Events</li>
+          <li>Team</li>
+          <li>Contact</li>
+          <li>Resources</li>
+          <li>QPR</li>
+		
+        </ul>
+      </nav>
+    </section>
+
+    <section class="w-full bg-white py-12 ">
+      <div class="container mx-auto">
+        <img src="/src/images/logo.webp" alt="TWHCV Logo" class="mx-auto max-w-md" />
+      </div>
+    </section>
+
+	<section class="container mx-auto text-center py-12">
+		<h2 >Upcoming Events</h2>
+	</section>
+  </main>
+</Layout>
+
+<style>
+	h2 {
+		@apply text-5xl mb-8 bg-lime-100 text-gray-100;
+	}	
+  :root {
+    /* --sage-green: #8A9A5B;
+    --light-beige: #F0EDE5;
+    --dark-brown: #4A3728;
+    --navy-blue: #1C3879;
+    --golden-yellow: #FFD700;
+    --white: #FFFFFF; */
+  }
+</style>
